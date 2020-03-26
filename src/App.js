@@ -4,13 +4,13 @@ import './config'
 import * as firebase from "firebase/app";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyCGPxiFz4GGRrCWdyV5-uuY1IzvXKLWwC4",
+  apiKey: "blablabla",
   authDomain: "bestchatappever.firebaseapp.com",
   databaseURL: "https://bestchatappever.firebaseio.com",
   projectId: "bestchatappever",
   storageBucket: "bestchatappever.appspot.com",
-  messagingSenderId: "1010887688364",
-  appId: "1:1010887688364:web:591cdbdabf7507b0a19f09"
+  messagingSenderId: "blablabla",
+  appId: "blablabla"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
