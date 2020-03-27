@@ -27,11 +27,13 @@ body{
       display:flex;
       width:100%;
       margin-bottom:2rem;
-      margin-left:25%;
+      margin-left:10%;
   }
 
   label.testInput{
     width:18%;
+    font-size:2.5rem;
+    font-weight:700;
   }
   
   .testInput{
@@ -64,8 +66,14 @@ body{
   .typePseudo{
     z-index:1000;
     height:100vh;
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
+
+.testInput.usernameInput{
+  font-size:4rem;
+}
 
   .msg{
     border-top:2px solid rgb(19, 216, 150);
