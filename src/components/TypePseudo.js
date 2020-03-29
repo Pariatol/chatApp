@@ -6,6 +6,8 @@ function TypePseudo(props){
       e.preventDefault();
       let form = document.getElementById('getPseudo');
       props.setPseudo(form.elements.usernameInput.value);
+      localStorage.setItem('chatUsername', form.elements.usernameInput.value);
+
     }
   
     return(

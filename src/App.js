@@ -16,7 +16,10 @@ function App() {
 
   const [pseudo,setPseudo] = useState('');
 
+  useEffect(()=>{
+    setPseudo(localStorage.getItem('chatUsername') || '')
 
+  },[])
 
   return (
     <div className="App">

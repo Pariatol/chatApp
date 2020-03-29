@@ -7,7 +7,7 @@ function PrintMsgs(){
     const [msg,setMsg] = useState([]);
   
     useEffect(()=>{
-    fetchMsgs(setMsg)
+    fetchMsgs(msg,setMsg)
   },[])
   
     return(
